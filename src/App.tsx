@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <HashRouter>
-      <Routes>
+        <Routes>
           <Route path="/" element={<Test />} />
           <Route path="/test" element={<Test />} />
         </Routes>
