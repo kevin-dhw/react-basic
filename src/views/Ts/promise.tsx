@@ -8,6 +8,12 @@ const Home: React.FC = () => {
   };
   fun();
 
+  const fn = <T, U>(num: T, str: U): T => {
+    console.log(str, "str");
+    return num;
+  };
+  fn(1, "1");
+
   return (
     <div className=" flex gap-4">
       <div>content</div>

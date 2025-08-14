@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+import Top from "./components/top";
 
 const Home: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
       >
         content
       </div>
+      <Top />
     </div>
   );
 };
